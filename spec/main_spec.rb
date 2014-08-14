@@ -14,7 +14,6 @@ describe "Regex Results" do
   end
 
   it "should have valid non-MIT IP addresses" do
-    puts @source_text
     expect(non_mit_ip_addresses(source_text)).to eq(["127.0.0.1", "216.239.32.0", "66.102.15.255", "203.15.20.74"])
   end
 
