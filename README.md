@@ -26,7 +26,9 @@ Run `rspec spec` to check if your `main.rb` has the right results.
 ## Resources
 
 Rubular - an awesome real-time regex editor for Ruby
+
 http://rubular.com/
 
 RegExr - another regex editor, rollover an expression or match to see a detailed explanation
+
 http://www.regexr.com/
