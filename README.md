@@ -25,6 +25,10 @@ Run `rspec spec` to check if your `main.rb` has the right results.
 
 ## Resources
 
+Quick blog post on Regexes:
+
+http://www.joshondesign.com/2011/04/12/joshs-quick-intro-to-regex/
+
 Rubular - an awesome real-time regex editor for Ruby
 
 http://rubular.com/
