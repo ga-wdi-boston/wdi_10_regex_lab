@@ -1,4 +1,8 @@
-# Regex
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+
+# Ruby Regex Lab
+
+Regex (regular expressions) are a special datatype in Ruby that allows you to declare a pattern that can be used to match other objects like strings. This is an example of declarative programming that we talked about earlier in the week, because you're just specifying the *results* that you'd like to see, not telling the computer how to do it.
 
 ## Assignment
 
