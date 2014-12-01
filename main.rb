@@ -6,7 +6,7 @@ def valid_ip_addresses(string)
 end
 
 def valid_mit_ip_addresses(string)
-
+  string.scan(/18\.\d{1,3}\.\d{1,3}\.\d{1,3}/)
 end
 
 def non_mit_ip_addresses(string)
