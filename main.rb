@@ -2,9 +2,11 @@ require_relative 'source'
 require 'pry'
 
 def valid_ip_addresses(string)
+  string.scan(/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/)
 end
 
 def valid_mit_ip_addresses(string)
+
 end
 
 def non_mit_ip_addresses(string)
