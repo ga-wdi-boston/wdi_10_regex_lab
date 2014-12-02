@@ -36,4 +36,7 @@ def zip_codes(string)
 end
 
 def hex_colors(string)
+  string
+  .scan(/#[a-fA-F0-9]{6}\b/)
+  .map { |color_with_pound| color_with_pound[1..7] }
 end
