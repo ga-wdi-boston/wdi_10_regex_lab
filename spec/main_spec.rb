@@ -6,11 +6,11 @@ describe "Regex Results" do
   let(:source_text) {$source_text}
 
   it "should have valid IP addresses" do
-    expect(valid_ip_addresses(source_text)).to eq(["127.0.0.1", "216.239.32.0", "66.102.15.255", "203.15.20.74", "18.221.23.4", "18.238.10.38", "18.238.10.380"])
+    expect(valid_ip_addresses(source_text)).to eq(["127.0.0.1", "216.239.32.0", "66.102.15.255", "203.15.20.74", "18.221.23.4", "18.238.10.38"])
   end
 
   it "should have valid MIT IP addresses" do
-    expect(valid_mit_ip_addresses(source_text)).to eq(["18.221.23.4", "18.238.10.38", "18.238.10.380"])
+    expect(valid_mit_ip_addresses(source_text)).to eq(["18.221.23.4", "18.238.10.38"])
   end
 
   it "should have valid non-MIT IP addresses" do
