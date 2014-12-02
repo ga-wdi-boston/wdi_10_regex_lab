@@ -10,6 +10,8 @@ def valid_mit_ip_addresses(string)
 end
 
 def non_mit_ip_addresses(string)
+  valid_ip_addresses(string)
+    .select{|ip| !ip.match(/18\.\d{1,3}\.\d{1,3}\.\d{1,3}/)}
 end
 
 def valid_phone_numbers(string)
