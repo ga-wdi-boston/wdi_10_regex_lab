@@ -32,6 +32,7 @@ def email_addresses(string)
 end
 
 def zip_codes(string)
+  string.scan(/\b\d{5}\b/)
 end
 
 def hex_colors(string)
