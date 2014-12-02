@@ -15,6 +15,10 @@ def non_mit_ip_addresses(string)
 end
 
 def valid_phone_numbers(string)
+  string
+    .scan(/ (\d{3}-\d{3}-\d{4})/)
+    .flatten
+    .select{ |num| !num.match(/^1/) }
 end
 
 def area_codes(string)
