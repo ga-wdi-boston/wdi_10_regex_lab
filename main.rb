@@ -22,6 +22,9 @@ def valid_phone_numbers(string)
 end
 
 def area_codes(string)
+  valid_phone_numbers(string)
+    .map { |phone| phone.scan(/^\d{3}/) }
+    .flatten
 end
 
 def email_addresses(string)
