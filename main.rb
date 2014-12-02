@@ -28,6 +28,7 @@ def area_codes(string)
 end
 
 def email_addresses(string)
+  string.scan(/\b[a-zA-Z0-9._+\-]+@[a-zA-Z0-9._+\-]+\.[a-zA-Z]{2,4}\b/)
 end
 
 def zip_codes(string)
