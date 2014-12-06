@@ -29,9 +29,10 @@ def email_addresses(string)
 end
 
 def zip_codes(string)
-  string.scan(//)
+  string.scan(/\b(?:\d{5})\b/)
 end
 
 def hex_colors(string)
-  string.scan(//)
+  # hex numbers are 0-9 a-f six digits
+  string.scan(/(?:#([\da-f]{6}))/).flatten
 end
