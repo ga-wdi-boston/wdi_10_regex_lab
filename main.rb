@@ -34,5 +34,5 @@ end
 
 def hex_colors(string)
   # hex numbers are 0-9 a-f six digits
-  string.scan(/(?:#([\da-f]{6}))/).flatten
+  string.scan(/(?:#([\da-f]{6}))/i).flatten
 end
